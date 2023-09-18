@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>ToDo List - MEARN Mahara - Osama Hussein</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>ToDo List</h1>
+        <div class="form">
+          <input type="text" id="input" placeholder="Enter a task" />
+          <button onclick="AddTask()" id="add">Add</button>
+        </div>
+      </div>
+      <div class="main">
+        <section class="list todo">
+          <h2>Todo</h2>
+          <ul id="todo-list"></ul>
+        </section>
+        <section class="list done">
+          <h2>Done</h2>
+          <ul id="done-list"></ul>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
